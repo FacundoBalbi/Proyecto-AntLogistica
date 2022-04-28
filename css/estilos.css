@@ -1,0 +1,266 @@
+*{text-decoration: none;}
+
+*{margin:0}
+*{padding:0;}
+
+/*main*/
+
+
+.antlogistica{
+    font-family: 'League Spartan', sans-serif;
+    color: #1b0066 ;
+    font-size: 60px;
+    display: flex;
+    padding: 30px;     
+}
+
+.flex-icon{
+    margin: none;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px 60px ;
+}
+
+.flex-icon img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.flex-icon p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #1b0066;
+    font-size: 20px;
+}
+
+
+.caja1{
+width: 350px;
+height: 220px;
+}
+
+.caja2{
+    width: 350px;
+    height: 220px
+}
+
+.caja3{
+    width: 350px;
+    height: 220px;
+
+}
+
+.caja4{
+    width: 350px;
+    height: 220px;
+
+    
+}
+
+.articulo{
+    text-align: center;
+    margin: 0px;
+
+}
+
+.articulo h3{
+    font-family: 'Roboto', sans-serif;
+    color: #1b0066;
+    font-size: 30PX;
+    margin: 0px;
+}
+
+.articulo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: grey;
+    margin: 2px;
+}
+/*FOOTER*/
+
+.footer{
+    background-image: linear-gradient(to top,#ff6600e5,#1f0172,#1b0066);
+}
+
+.container1{
+    background-color: white;
+}
+
+.antlogistica__1{
+    font-family: 'League Spartan', sans-serif;
+    color: #1b0066 ;
+    text-align: center;
+    padding: 20px;
+
+}
+.datos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 244, 244);
+}
+
+.datos p{
+    margin-bottom: 5px;
+}
+.datos__cap{
+    font-size: 30px;
+}
+
+.final p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 244, 244);  
+}
+
+.final a{
+    color: white;
+}
+
+/*css  de contacto*/
+
+.titulo{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    background-image:linear-gradient(to bottom,#ff6600e5,#1b0066);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;     
+}
+
+.parrafo{
+    font-family: 'League Spartan', sans-serif;
+    color: white ;
+    background-color: #1b0066;
+    text-align: center;
+    padding: 3px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+
+.tabla-contacto{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(65, 63, 63);
+    padding: 50px;;
+}
+.input{
+    padding: 8px;
+    border-radius:5px ;
+    border-color: #d49828;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(65, 63, 63);
+}
+
+/*css  de Recomencacion*/
+
+.back__caja {
+    display: grid;
+    grid-template-areas:
+    'inicio inicio inicio inicio'
+    'holis holis holis holis'
+    'img fin fin fin'
+    'img recomendacion2  recomendacion2 recomendacion2'
+    'img recomendacion3 recomendacion3 recomendacion3'
+    'img recomendacion4 recomendacion4 recomendacion4';
+}
+    
+.dib1 { 
+    grid-area: inicio;
+}
+.dib2 { 
+    grid-area: holis; 
+}
+.dib3 { 
+    grid-area: img;
+    width: 359px;
+    height: 480px;
+}
+
+.img-recomendacion{
+    width: 359px;
+    height: 480px; 
+}
+.dib4 { 
+    grid-area: fin;
+    width: 1156px;
+}
+.dib5 { 
+    grid-area: recomendacion2;
+}
+.dib6 { 
+    grid-area: recomendacion3; 
+}
+.dib7 { 
+    grid-area: recomendacion4;
+}
+
+.back__caja h3{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(65, 63, 63);
+    padding: 3px;
+}
+
+.back__caja p{
+    text-align: left;
+    font-family:'Roboto', sans-serif ;
+    font-size: 14px;
+    color: rgb(139, 136, 136);
+    padding: 2px;
+        
+}
+
+.back__caja ul li{
+    text-align: left;
+    font-family:'Roboto', sans-serif ;
+    font-size: 14px;
+    color: rgb(139, 136, 136);
+    padding: 2px;
+}
+
+/*css  de Contactenos*/
+
+.tabla__contactenos{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(65, 63, 63);
+    padding: 50px;
+}
+
+.zona-comentario{
+    border-radius:5px ;
+    border-color: #d49828;
+
+}
+
+/*css  de Nosotros*/
+
+
+.articulo2{
+    text-align: center;
+    margin: 0px;
+}
+
+.articulo2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: grey;
+    margin: 2px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+

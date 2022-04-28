@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/Logo.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>AntLogistica</title>
+</head>
+<body>  
+    <header>        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding:0px">
+            <div class="container-fluid" style="padding:0px">
+            <a class="navbar-brand" style="margin:0px"></a>
+            <img src="../assets/img/AntLogistica.jpg"  width="358" height="100" class="d-inline-block align-text-top p-1"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav nav-itemx pt-5">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/recomendacion.html">Recomendacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">Contactenos</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+<main class="back-general">
+    <div>
+        <h1 class="titulo">Contáctenos</h1>
+        <h2 class="parrafo">Tu espacio para contarnos y brindarle nuestro mejor servicio</h2>
+        <h2 class="parrafo">a la vez de la respuesta y solucion a su problema</h2>
+        <form action="procesar.php" method="post"></form>
+    </div>
+
+    <div class="tabla__contactenos">
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input class="input"  type="text" name="nombre" placeholder="ingresa tu nombre">
+        </p><br>
+
+        <p>
+            <label for="apellido">Apellido:</label>
+            <input class="input" type="text" name="apellido" placeholder="ingresa tu apellido">
+        </p><br>
+
+        <p>
+            <label for="email">Email:</label>
+            <input class="input" type="email" name="email" placeholder="usuario@servidor.com">        
+        </p><br>
+
+
+        <p>
+            <label for="tel">Telefono:</label>
+            <input class="input" type="tel" name="number" placeholder="11-2345-6789">
+        </p><br>
+
+        <p>
+            <label for="text">Asunto:</label>
+            <input class="input" type="text" name="text" placeholder="">
+        </p><br>
+
+        <h4>Dejame tu comentario</h4>
+
+        <textarea class="zona-comentario" name="comentario" id="" cols="70" rows="13"></textarea>
+
+        <p>
+            <input class="input" type="submit" value="Enviar">
+        </p>    
+    </div>
+</main>
+
+<footer class="footer">
+    
+    <div class="container1">
+        <div class="row row-cols-auto justify-content-center text-center m-0" margin-left: 0px;">    
+            <div class="col"><h2 class="antlogistica__1 m-1">AntLogistica</h2></div>    
+        </div>            
+    </div>
+    
+    
+        <div class="container">
+            <div class="row row-cols-auto justify-content-center text-center">
+                <div class="datos">
+                    <h3 class="col m-4">Capital Federal</h3>
+                    <p class="col" >Av.Cordoba 4800</p>
+                    <p class="col">Villa Crespo,Capital Federal</p>
+                    <p class="col">Argentina 1414</p>           
+                    <P class="col">Tel:+54 11 2345-6789</P>
+                    <div class="col m-4">
+                    <a href="https://www.instagram.com/antlogistica/" target="blank" ><img src="../assets/img/instagram.png " alt="Instagram" width="50"></a>          
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img src="../assets/img/email.png" alt="Email" width="50"></a>
+                    </div>
+                </div
+            </div>        
+        </div>
+    
+    
+        <div class="container">
+            <div class="final">
+                <div class="row row-cols-auto" style="justify-content: space-between;">            
+                    <div class="col"><p>antlogistica@gmail.com</p></div>
+                    <div class="col"><a href="#">Contactenos</a></div>
+                    <div class="col"><a href="../index.html">Inicio</a></div>
+                    <div class="col"><a href="../pages/contacto.html">Contacto</a></div>
+                    <div class="col"><p>antlogistica Copyright 2022</p></div>
+            </div>
+        </div>
+    </div>      
+</footer>
+<script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>    
