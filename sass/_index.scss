@@ -4,6 +4,7 @@
 $paleta:(
     'color titulo': #1b0066,
     'color footer': linear-gradient(to top,#ff6600e5,#1f0172,#1b0066),
+    'color articulo': grey,
 );
 
 
@@ -77,7 +78,7 @@ $paleta:(
 .articulo p{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    color: grey;
+    color: map-get($map: $paleta, $key:'color articulo');
     margin: 2px;
 }
 

@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Seo-->
     <meta name="description" content="Contacté con antlogistica, una empresa de logistica y envios a todo CABA.">
-    <meta name="keywords" content="LOGISTICA, LOGISTICA URBANA, ENVIOS, EMBALAJE, LOGISTICA ARGENTINA, LOGISTICA BUENOS AIRES, LOGISTICA CAPITAL FEDERAL, LOGISTICA CABA, LOGISTICA AMBA, LOGISTICA EXPRESS">
+    <meta name="keywords" content="REGISTRATE,REGISTRO,REGISTRARME,CONTACTO,CONTACTENOS,LOGISTICA, LOGISTICA URBANA, ENVIOS, EMBALAJE, LOGISTICA ARGENTINA, LOGISTICA BUENOS AIRES, LOGISTICA CAPITAL FEDERAL, LOGISTICA CABA, LOGISTICA AMBA, LOGISTICA EXPRESS">
     <!--Link-->
     <link rel="shortcut icon" href="../assets/img/Logo.png">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../sass/estilos.scss">
+    <link rel="stylesheet" href="../sass/_contacto.scss">
     <!--Font-->
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -23,28 +24,28 @@
     <header>        
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding:0px">
             <div class="container-fluid" style="padding:0px">
-            <a class="navbar-brand" style="margin:0px"></a>
-            <img src="../assets/img/AntLogistica.jpg"  width="358" height="100" class="d-inline-block align-text-top p-1"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" style="margin:0px"></a>
+                <img src="../assets/img/AntLogistica.jpg"  width="358" height="100" class="d-inline-block align-text-top p-1"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+                </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav nav-itemx pt-5">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"  href="../pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/recomendacion.html">Recomendacion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="../pages/contactenos.html">Contactenos</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/recomendacion.html">Recomendacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
                 </ul>
             </div>
             </div>
@@ -53,78 +54,78 @@
 
     
 <main class="back-general">
-        <div>
-            <h1 class="titulo">Contacto</h1>
-            <h2 class="parrafo">Quedemos en contacto</h2>
-            <form action="procesar.php" method="post"></form>
+    <div>
+        <h1 class="titulo">Contacto</h1>
+        <h2 class="parrafo">Quedemos en contacto</h2>
+    </div>
+    <!--Tabla de contacto-->
+    <div class="main-contacto">
+        <form action="procesar.php" method="post" ></form>
+            <div class="contacto">
+            <form class="row g-3 row row-cols-auto justify-content-center" action="https://formspree.io/f/xrgjowjy" method="POST">
+            <div class="col-5 md-4">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="1234@abcd.com" name="email" >
+            </div>
+            <div class="col-5">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre" name="name">
+            </div>
+            <div class="col-5">
+                <label class="form-label">Apellido</label>
+                <input type="text" class="form-control" placeholder="Apellido" >
+            </div>
+            <div class="col-5">
+                <label for="inputAddress2" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Dirección y Altura">
+            </div>
+            <div class="col-5 md-4">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-5">
+                <label class="form-label">Codigo Postal</label>
+            <select class="form-control">
+                <option selected>1234</option>
+                <option>...</option>
+            </select>
+            </div>
+            <div class="form-floating col-6">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 265px" name="message"></textarea>
+                <label for="floatingTextarea2">Comentario...</label>
+            </div>
+            
+            <div class="col-4 text-center">
+                <div class="info">
+                    <h3 class="col">Capital Federal</h3>
+                    <p class="col" >Av.Cordoba 4800</p>
+                    <p class="col">Villa Crespo,Capital Federal</p>
+                    <p class="col">Argentina 1414</p>           
+                    <P class="col">Tel:+54 11 2345-6789</P>
+                    <p class="col">antlogistica@gmail.com</p>
+                </div>    
+            </div>
+            <div class="col-10">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
         </div>
-        
-        <div class="tabla-contacto">        
-            <p>
-                <label for="nombre">Nombre: </label>
-                <input class="input"  type="text" name="nombre" placeholder="ingresa tu nombre">
-            </p><br>
-    
-            <p>
-                <label for="apellido">Apellido:</label>
-                <input class="input" type="text" name="apellido" placeholder="ingresa tu apellido">
-            </p><br>
-    
-            <p>
-                <label for="email">Email:</label>
-                <input class="input" type="email" name="email" placeholder="usuario@servidor.com">        
-            </p><br>
-    
-
-            <p>
-                <label for="tel">Telefono:</label>
-                <input class="input" type="tel" name="number" placeholder="11-2345-6789">
-            </p><br>
-    
-            <p>
-                <label for="text">Direccion:</label>
-                <input class="input" type="text" name="text" placeholder="">
-            </p><br>
-    
-            <p>
-                <label for="number">Numero:</label>
-                <input class="input" type="number" name="number" placeholder="1234">
-            </p><br>
-    
-            <p>
-                <label for="number">Codigo Postal:</label>
-                <input class="input" type="numbre" name="numbre">
-            </p><br>
-        
-            <p>
-                <h4>Sexo</h4>
-                <label for="sexo">Hombre</label>
-                <input type="checkbox" name="sexo" value="hombre">
-    
-                <label for="sexo">Mujer</label>
-                <input type="checkbox" name="sexo" value="mujer" >
-    
-                <label for="sexo">Otrx</label>
-                <input type="checkbox" name="sexo" value="otrx">
-            </p><br>
-
-            <p>
-                <input class="input" type="submit" value="Enviar">
-                <input class="input" type="reset" value="Borrar formulario">
-                <input class="input" type="button" value="Sin acciones">
-            </p>    
-        </div>
+    </div>      
 </main>
 
-<footer class="footer">
-    
+<footer class="footer">    
     <div class="container1">
         <div class="row row-cols-auto justify-content-center text-center m-0" margin-left: 0px;">    
             <div class="col"><h2 class="antlogistica__1 m-1">AntLogistica</h2></div>    
         </div>            
     </div>
     
-    
+    <div class="redes">
+        <a href="https://www.instagram.com/antlogistica/" target="blank"><img src="../assets/img/insta (3).png"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img src="../assets/img/mail (2).png"></a>
+        <a href="" target="blank"><img src="../assets/img/pngwing.com.png"></a>
+        <a href="https://github.com/FacundoBalbi?tab=repositories" target="blank"><img src="../assets/img/git (1).png"></a>
+    </div>
         <div class="container">
             <div class="row row-cols-auto justify-content-center text-center">
                 <div class="datos">
@@ -132,16 +133,11 @@
                     <p class="col" >Av.Cordoba 4800</p>
                     <p class="col">Villa Crespo,Capital Federal</p>
                     <p class="col">Argentina 1414</p>           
-                    <P class="col">Tel:+54 11 2345-6789</P>
-                    <div class="col m-4">
-                    <a href="https://www.instagram.com/antlogistica/" target="blank" ><img src="../assets/img/instagram.png " alt="Instagram" width="50"></a>          
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="blank"><img src="../assets/img/email.png" alt="Email" width="50"></a>
-                    </div>
-                </div
+                    <P class="col">Tel:+54 11 2345-6789</P>                    
+                </div>
             </div>        
         </div>
-    
-    
+        
         <div class="container">
             <div class="final">
                 <div class="row row-cols-auto" style="justify-content: space-between;">            
