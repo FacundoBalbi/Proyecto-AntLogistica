@@ -20,7 +20,6 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 40px 60px ;
 }
 
 .flex-icon img{
@@ -28,6 +27,7 @@
     margin: auto;
     width: 150px;
     height: 150px;
+    align-items: center;
 }
 
 .flex-icon p{
@@ -40,7 +40,6 @@
 .articulo{
     text-align: center;
     margin: 0px;
-
 }
 
 .articulo h3{
@@ -62,7 +61,7 @@
   font-family: "League Spartan", sans-serif;
   color: white;
   background-color: #1b0066;
-  font-size: 60px;
+  font-size: 57px;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -148,47 +147,6 @@
 
 
 /*css  de Recomencacion*/
-
-.back__caja {
-  display: grid;
-  grid-template-areas:
-  'inicio inicio inicio inicio'
-  'holis holis holis holis'
-  'img fin fin fin'
-  'img recomendacion2  recomendacion2 recomendacion2'
-  'img recomendacion3 recomendacion3 recomendacion3'
-  'img recomendacion4 recomendacion4 recomendacion4';
-}
-  
-.dib1 { 
-  grid-area: inicio;
-}
-.dib2 { 
-  grid-area: holis; 
-}
-.dib3 { 
-  grid-area: img;
-  width: 359px;
-  height: 480px;
-}
-
-.img-recomendacion{
-  width: 359px;
-  height: 480px; 
-}
-.dib4 { 
-  grid-area: fin;
-  width: 1156px;
-}
-.dib5 { 
-  grid-area: recomendacion2;
-}
-.dib6 { 
-  grid-area: recomendacion3; 
-}
-.dib7 { 
-  grid-area: recomendacion4;
-}
 
 .back__caja h3{
   text-align: left;
